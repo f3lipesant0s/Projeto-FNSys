@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  background-size: cover;
+  background: url("../images/Initial.png") no-repeat center;
+  background-color: #131517;
+}
+
+/* .hero {
+  padding: 10vh 0 10vh 0;
+} */
+
+.peer-boxes {
+  height: 90vh;
+  display: flex;
+  margin: 10% 0 10% 0;
+  border: 3px #2f2f30 solid;
+}
+
+.peer-boxes > div:first-child {
+  width: 40%;
+  height: 100%;
+  background-size: cover;
+  background: url("../images/Initial.png") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8%;
+  justify-content: center;
+}
+
+.peer-boxes > div:last-child {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  width: 60%;
+  background-color: #131517;
+}
+
+.peer-boxes > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.peer-boxes > div:last-child > div:first-child {
+  right: 10%;
+  bottom: 10%;
+  position: relative;
+}
+
+.peer-boxes > div:last-child > div:last-child {
+  top: 10%;
+  right: 10%;
+  position: relative;
+}
+
+.background-title {
+  font-weight: 600;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.background-paragraph {
+  color: #b3b3b3;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 15rem;
+  min-height: 18rem;
+  background-color: #1b1c1e;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.card > .card-title {
+  color: #889ce7;
+  font-weight: 600;
+  font-size: large;
+}

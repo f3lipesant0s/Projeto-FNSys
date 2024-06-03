@@ -1,0 +1,87 @@
+.hero {
+  padding: 10vh 0 10vh 0;
+}
+
+.hero > div {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.hero > div > a > button {
+  width: 12%;
+  height: 3.5rem;
+
+}
+
+
+.form-content {
+  margin: 5vh 0 5vh 0;
+  display: flex;
+  align-items: center;
+  background-color: #131517;
+  border: 0.5px solid #828282;
+  height: 90vh;
+}
+
+.form-content > section:first-child {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  padding: 0 8% 0 8%;
+  border-right: 0.5px solid #828282;
+  height: 100%;
+}
+
+.form-content > section:first-child > p {
+  color: #828282;
+}
+
+.form-content > section:last-child {
+  padding: 0 8% 0 8%;
+}
+
+.form-content > section:last-child > div {
+  width: 65%;
+  display: flex;
+  gap: 35px;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.button-blue {
+  margin-top: 10px;
+  color: #131517;
+  background-color: #6e5aee;
+  border: 1px solid #6e5aee;
+  padding: 0 10px 0 10px;
+}
+
+.button-blue:hover {
+  color: white;
+  background: none;
+  border: 1px solid white;
+}
+
+
+.button-transparent {
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1.5vh 3vh;
+}
+
+.button-transparent:hover{
+  color: #131517;
+  background-color: #6e5aee;
+  border: 1px solid #6e5aee;
+}

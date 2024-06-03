@@ -1,0 +1,81 @@
+/* Fontes de texto*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Títulos */
+
+
+
+/* Container Sobre */
+.groupbox {
+    margin: 5vh 0 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 85vh; */
+}
+
+.containerSobre {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 20px;
+    flex: 1 1 45%; /* Ocupar aproximadamente 45% do espaço do contêiner */
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.5px solid #828282;
+    height: 500px;
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    flex-direction: column;
+}
+
+.groupbox .containerSobre .box:first-of-type {
+    flex: 1 1 40%;
+    background-image: url(../images/backblue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 35px;
+}
+
+.groupbox .containerSobre .box:nth-of-type(2) {
+    flex: 1 1 60%;
+    background-color: #131517;
+}
+
+.groupbox .containerSobre .box:nth-of-type(3) {
+    flex: 1 1 60%; 
+    background-color: #131517;
+}
+
+.groupbox .containerSobre .box:nth-of-type(4) {
+    flex: 1 1 40%;
+    background-image: url(/assets/images/backred.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.groupbox .containerSobre p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #828282;
+    font-size: 18px;
+    width: 40%; /* Ajusta a largura */
+    line-height: 1.8em;
+    text-align: start;
+}
